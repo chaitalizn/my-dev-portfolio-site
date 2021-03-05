@@ -1,25 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
-body {
+* {
 	margin: 0;
 	padding: 0;
-	width: 100%;
 }
 
-.logo {
-	width: 20%;
-	height: auto;
-}
+/*all font style*/
 
-a {
-	text-decoration: none;
-}
- 
-li {
-	list-style-type: none;
-}
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, a {
 	font-family: 'Roboto', sans-serif, 'Helvetica', 'Myriad pro';
 }
 
@@ -55,16 +44,78 @@ p{
 	font-size: 1.5em;
 }
 
-.social-icon {
-	height: 2em;
-	margin: 0.5em;
-}
-.hero-container, #projects, #services {
-	background-color: #D8EBF0;
-	color: #2E3C45;
-}
+
+
+
 
 #about, #contact {
 	background-color: #0B1F52;
 	color: #ffffff;
 }
+
+/*header and nav-bar style*/
+
+.header {
+	background-color: #ffffff;
+	padding: 1.5em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	position: -webkit-sticky;
+    position: sticky;
+	top: 0;
+}
+
+nav ul, .nav-social, .social-icons-container {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;	
+	align-items: center;
+}
+
+.logo {
+	width: 25em;
+	height: auto;
+}
+
+
+header nav a {
+	padding: 0 0.75em;
+	text-decoration: none;
+	color: #2E3C45;
+	font-size: 2em;
+}
+
+.social-icon {
+	padding: 0 0.5em;
+	width: 3em;
+	height: 3em;
+}
+
+.logo, nav, .social-icons-container {
+	margin: 0 2em;
+}
+
+/*hero style */
+
+.hero-container, #projects, #services {
+	background-color: #D8EBF0;
+	color: #2E3C45;
+}
+
+.hero-container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-end;
+}
+
+.hero {
+	margin: 10em 20em 10em auto;
+	padding: 20px;
+	line-height: 3em;
+}
+
