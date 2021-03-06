@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Chaitali Patel</title>
 	<link rel="stylesheet" href="Assets/css/style.css" />
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,7 +14,7 @@
 <body>
 	<header class="header">
 		
-			<a><img class="logo" src="Assets/image/HPG-LOGO1.png" alt="logo"></a>
+			<a href="index.html"><h1>CHP</h1></a>
 			
 			<div class="nav-social">
 				<nav>
@@ -22,7 +23,7 @@
 						<li><a href="#about">About</a></li>
 						<li><a href="#projects">Projects</a></li>
 						<li><a href="#contact">Contact</a></li>
-						<li><a href="#services">Services</a></li>
+						<li><a href="#resume">Resume</a></li>
 					</ul>
 				</nav>
 
@@ -37,8 +38,8 @@
 	
 	<section class="hero-container">
 		<div class="hero">
-			<h1>LANDING PAGE</h1>
-			<h2>POSITION</h2>
+			<h1>CHAITALI PATEL</h1>
+			<h2>WEB DEVELOPER</h2>
 		</div>
 	</section>
 	
@@ -62,12 +63,12 @@
 				<h3>PROJECTS</h3>
 			</div>
 			
-			<div>
-				<div>
+			<div class="project-container">
+				<div class="project-container-one">
 					<a><img src="Assets/image/placeholder-imag.jpg" alt="" /></a>
 				</div>
 				
-				<div>
+				<div class="project-container-two">
 					<div>
 						<a><img src="Assets/image/placeholder-imag.jpg" alt=""/></a>
 					</div>
@@ -90,37 +91,40 @@
 				<h3>CONTACT</h3>
 			</div>
 			
-			<div>
-				<div>
-					<div>
+			<div class="contact-container">
+				<div class="contact-social-container">
 						<a><img class="social-icon" src="Assets/image/email-white.png" alt=""/>email@gmail.com</a>
 						<a><img class="social-icon" src="Assets/image/github-white.png" alt=""/>@username</a>
 						<a><img class="social-icon" src="Assets/image/linkedin-white.png" alt=""/>linkedin username</a>
-					</div>
 				</div>
 			
-				<div>
-					<form>
-						<label for="name">
-						<input type="text" id="name" placeholder="Name">
-						</label>
-						<br>
-						<label for="email">
-						<input type="text" id="email" placeholder="Email">
-						</label>
-						<br>
-						<label for="message">
-						<input type="text" id="message" placeholder="Message">
-						</label>
-						<br>
-						<button type="submit" > SEND</button>
+				<div class="contact-form-container">
+					<form class="form">
+						<div class="form-column-one">
+							<label for="name"></label>
+							<input type="text" id="name" placeholder="Name">
+							
+							<label for="email"></label>
+							<input type="text" id="email" placeholder="Email">
+							
+							<label for="phone"></label>
+							<input type="number" id="phone" placeholder="Phone">
+						</div>
+
+						<div class="form-column-two">
+
+							<label for="message"></label>
+							<textarea type="text" id="message" placeholder="Message"></textarea>
+							
+							<button type="submit" class="btn"> SEND</button>
+						</div>
 					</form>
 				</div>
 			</div>
 
 		</section>
 
-		<section id="services">
+		<section id="resume">
 			<div class="section-title">
 				<h3>SERVICES</h3>
 			</div>
