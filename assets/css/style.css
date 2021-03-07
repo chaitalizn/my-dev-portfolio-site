@@ -53,10 +53,20 @@ header a h1{
 
 
 
-#about, #contact {
+ #contact {
 	background-color: #0B1F52;
 	color: #ffffff;
 }
+
+.section-title {
+	background-color: #ffffff;
+}
+
+.about-flex-item2 {
+	background-color: #0B1F52;
+}
+/* flex box */
+
 
 /*header and nav-bar style*/
 
@@ -102,7 +112,7 @@ header nav a {
 
 /*hero style */
 
-.hero-container, #projects, #resume {
+.hero-container, #projects, #skills {
 	background-color: #D8EBF0;
 	color: #2E3C45;
 }
@@ -120,16 +130,15 @@ header nav a {
 	line-height: 4em;
 }
 
-#about, #contact, #projects, #resume {
+#about, #contact, #projects, #skills {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-start;
+	padding: 1%;
 }
 
-#about p{
-	padding: 1em 1em;
-}
+
 
 .section-title {
 	writing-mode:vertical-lr;
@@ -155,7 +164,7 @@ header nav a {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-evenly;
-	align-content: space-between;;
+	align-content: space-between;
 
 }
 .project-container-two img {
@@ -240,5 +249,27 @@ header nav a {
 
 ::-ms-input-placeholder {
 	color: #ffffff;
+}
+
+#skills {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	width: 100%;
+	padding: 1%;
+}
+
+.skills-flex-item1 {
+	width: 100%;
+}
+
+.skills-flex-item2, .skills-flex-item2 {
+	width: 50%;
 }
 
