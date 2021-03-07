@@ -8,6 +8,7 @@
 /*all font style*/
 body {
 	width: 100%;
+	background-color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, a {
@@ -28,7 +29,7 @@ h2 {
 
 h3 {
 	font-weight: 700;
-	font-size: 3em;
+	font-size: 6em;
 }
 
 h4 {
@@ -51,24 +52,15 @@ header a h1{
 	font-size: 3em;
 }
 
-
-
- #contact {
-	background-color: #0B1F52;
-	color: #ffffff;
+.logo {
+	width: 25em;
+	height: auto;
 }
 
-.section-title {
-	background-color: #ffffff;
-}
-
-.about-flex-item2 {
-	background-color: #0B1F52;
-}
 /* flex box */
 
 
-/*header and nav-bar style*/
+/*header and nav-bar style */
 
 .header {
 	background-color: #ffffff;
@@ -92,19 +84,11 @@ nav ul, .nav-social, .social-icons-container {
 	align-items: center;
 }
 
-.logo {
-	width: 25em;
-	height: auto;
-}
-
-
 header nav a {
 	padding: 0 0.75em;
 	color: #2E3C45;
 	font-size: 1.25em;
 }
-
-
 
 .logo, nav, .social-icons-container {
 	margin: 0 2em;
@@ -112,15 +96,9 @@ header nav a {
 
 /*hero style */
 
-.hero-container, #projects, #skills {
-	background-color: #D8EBF0;
-	color: #2E3C45;
-}
-
-.hero-container {
+.hero-flex-container {
 	width: 100%;
 	display: flex;
-	flex-direction: row;
 	justify-content:flex-end;
 }
 
@@ -130,47 +108,56 @@ header nav a {
 	line-height: 4em;
 }
 
+
 #about, #contact, #projects, #skills {
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-start;
-	padding: 1%;
+	margin: 1%;
 }
 
+/* utility class */
+.bg-blue {
+	background-color: #0B1F52;
+	color: #ffffff;
+}
 
+.bg-lightblue {
+	background-color: #D8EBF0;
+	color: #0B1F52;
+}
 
 .section-title {
 	writing-mode:vertical-lr;
 	transform: rotateZ(180deg);
 	margin: 0 0 0 4em;
-	padding: 1em 1em;
+	padding: 3%;
+	color: #0B1F52;
 }
 
-.project-container {
-	width: 90%;
+.project-flex-container, .contact-flex-container, .skills-flex-container {
+	width: 100%;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	padding: 1em 1em;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	padding: 2%;
 }
 
-.project-container-one img {
-	width: 550px;
-
+.project-item1 {
+	width: 98%;
+	padding: 1%;
 }
 
-.project-container-two {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-evenly;
-	align-content: space-between;
-
+.project-item2, .project-item3, .project-item4, .project-item5 {
+	width: 48%;
+	padding: 1%;
 }
-.project-container-two img {
-	width: 260px;
 
+.project-image { 
+	width: 100%;
+	
 }
+
 
 .contact-container {
 	width: 90%;
@@ -272,4 +259,3 @@ header nav a {
 .skills-flex-item2, .skills-flex-item2 {
 	width: 50%;
 }
-
