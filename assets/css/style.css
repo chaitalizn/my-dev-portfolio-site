@@ -62,7 +62,7 @@ header a h1{
     position: sticky;
 	top: 0;
 	z-index: 1;
-	height: 18vh;
+	height: 70px;
 }
 nav ul, .nav-social, .social-icons-container {
 	list-style: none;
@@ -86,6 +86,11 @@ header nav a:hover {
 	width: 3em;
 	padding: 0 .25em;
 }
+
+#about, #contact, #projects, #skills {
+	scroll-margin: 70px 0 0 0;
+}
+
 
 /* ALL SECTIONS COMMON STYLE */
 #about, #contact, #projects, #skills, .hero-flex-container {
@@ -192,7 +197,7 @@ header nav a:hover {
 	color: #ffffff;
 }
 .contact-flex-container2 .social-icon {
-	padding:8%;
+	padding:1em;
 	width: 10%;
 	height: auto
 }
