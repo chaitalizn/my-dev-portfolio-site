@@ -114,6 +114,7 @@ header nav a:hover {
 	padding: 2%;
 }
 
+
 /*HERO SECTION STYLE */
 .hero-flex-container {
 	margin: 0;
@@ -158,6 +159,11 @@ header nav a:hover {
 	padding: 1%;
 	position: relative;
 }
+
+.project-item1:hover, .project-item2:hover, .project-item3:hover, .project-item4:hover, .project-item5:hover {
+	background-color: rgba(223, 9, 132, .8);
+	
+	}
 
 .project-item3 img {
 	border: #0B1F52 1px solid;
