@@ -16,7 +16,7 @@ One page portfolio website which will showcase all of my projects for prospectiv
 6. Skills and Tools Section
 
 ## Screencapture of the Final Website 
-![Website Screencapture](assets/images/portfoliosite.png)
+![Website Screencapture](assets/image/portfoliosite.PNG)
 
 ## Website
 (https://chaitalizn.github.io/my-dev-portfolio-site/)
