@@ -151,11 +151,15 @@ header nav a:hover {
 	padding: 1%;
 	position: relative;
 }
+
+.project-item3 img {
+	border: #0B1F52 1px solid;
+}
 .project-title {
 	padding: 1em;
 	position: absolute;
 	bottom: 1em;
-	background-color: rgba(255, 255, 255, .5);
+	background-color: rgba(255, 255, 255, .7);
 }
 .project-title:hover {
 		background-color: rgba(255, 255, 255, .8);
